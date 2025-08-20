@@ -26,7 +26,8 @@ namespace miniRPG
         {
             Texture2D coinTexture = contentManager.Load<Texture2D>("coin");
 
-            player = new Player(contentManager.Load<Texture2D>("sprite_spaceman0"), Vector2.Zero, new Vector2(64, 64));
+            player = new Player(contentManager.Load<Texture2D>("spaceman_down0"), Vector2.Zero, new Vector2(64, 64));
+            player.loadAnimations(contentManager);
             camera = new(Vector2.Zero);
 
             spriteList.Add(player);

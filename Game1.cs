@@ -22,8 +22,8 @@ namespace miniRPG
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
 
-            _graphics.PreferredBackBufferWidth = 1280; // Example width
-            _graphics.PreferredBackBufferHeight = 720;  // Example height
+            _graphics.PreferredBackBufferWidth = 1280;
+            _graphics.PreferredBackBufferHeight = 720;
             _graphics.ApplyChanges();
 
             IsFixedTimeStep = true;
